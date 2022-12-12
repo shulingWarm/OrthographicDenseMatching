@@ -1,6 +1,6 @@
 # OrthographicDenseMatching
 
-This is the program and runtime libraries of the unpublished article, Orthographic Dense Matching: A New Method For Digital Orthophoto Generation.
+This is the program and runtime libraries of the unpublished article, A Novel Method for Digital Orthophoto Generation from Top-view Constrained Dense Matching.
 
 The program for testing is available at
 https://drive.google.com/drive/folders/1w-HCJHIKYzcsW8LWFd-arfIlHVT7wwix?usp=sharing.
