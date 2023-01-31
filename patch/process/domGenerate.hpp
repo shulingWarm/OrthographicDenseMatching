@@ -1,8 +1,6 @@
 #pragma once
 #include"openMVG/sfm/sfm_data.hpp"
-#include<string>
-#include"patch/domGrid/domIO.hpp"
-#include"patch/process/orthographicDenseMatching.hpp"
+
 
 
 //从一个dom管理器里面做相关的dom生成管理
@@ -70,10 +68,6 @@ protected:
         openMVG::sfm::Save(manager,
           stlplus::create_filespec(outFolder, "cloud_and_poses", ".ply"),
           openMVG::sfm::ESfM_Data::STRUCTURE);
-        //保存dom的网格信息
-        DomIO ioTool;
-        ioTool.saveDom(manager.domInfo_,
-                       stlplus::create_filespec(outFolder, "grid", ".bin"));
     }
 public:
     //生成dom的流程

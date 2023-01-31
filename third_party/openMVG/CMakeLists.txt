@@ -1,0 +1,7 @@
+add_subdirectory(./third_party/stlplus3)
+add_subdirectory(./dependencies/cereal)
+file(GLOB MVG_SRC ${PROJECT_SOURCE_DIR}/third_party/openMVG/sfm/*.cpp)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(./dependencies)
+add_library(openMVGWorld ${MVG_SRC})
+target_link_libraries(openMVGWorld ${OpenCV_LIBS} stlplus cereal)
