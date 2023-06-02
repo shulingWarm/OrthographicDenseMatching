@@ -1,6 +1,7 @@
 # 介绍
 
 本项目是这一论文的公开源码：[论文链接](https://www.mdpi.com/2072-4292/15/1/177)
+本项目已发布相同功能的CUDA版实现:[项目链接](https://github.com/shulingWarm/TDM-CUDA)
 
 ## 功能说明
 
