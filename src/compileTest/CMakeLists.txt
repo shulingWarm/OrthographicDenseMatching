@@ -1,0 +1,2 @@
+#测试用一个已知的DOM初始化一个新的DOM的代码
+add_executable(compileInitDom compileInitDom.cpp)
